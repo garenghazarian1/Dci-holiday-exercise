@@ -1,0 +1,169 @@
+
+html{
+    font-family: sans-serif;
+    font-size: 10px
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(26, 31, 49);
+    color: white;
+}
+header{
+    margin-top: 10rem;
+    text-align: center;
+    white-space: nowrap; /*property prevents the text within the container from wrapping to the next line. Additionally */
+    overflow: hidden;/* ensures that any overflowing text is hidden instead of being displayed outside the container */
+}
+header p{
+  background-color:blue;
+  border: none;
+  border-radius: 30px;
+  padding: 0.5em 1.2em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2rem;
+  display: inline-block;
+  position: relative;
+  left: 5em;
+  
+}
+header a{
+    background-color: rgb(40, 47, 73);
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 2rem;
+    padding-left: 6em;
+    text-align:center;
+    text-decoration: none;
+    font-size: 2em;
+    display: inline-block;  
+}
+main{
+    margin-top: 5rem;
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 10rem;
+    white-space: nowrap;
+    
+}
+
+.learnwatch{
+    white-space: nowrap;
+    margin-left: 10rem;
+}
+main p{
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 40% );
+    margin-top: 2rem;
+}
+.lm{
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 2rem;
+    padding-right: 4em;
+    text-align:center;
+    text-decoration: none;
+    font-size: 2em;
+    
+    display: inline-block; 
+    margin-top: 2rem;
+}
+main span{ 
+    font-size: 5rem;
+    position: relative;
+    top: 0em;
+    left: -1.5em;
+}
+.wv{
+    background-color: rgb(52, 60, 92);
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 2rem;
+    padding-left: 4em;
+    text-align:center;
+    text-decoration: none;
+    font-size: 2em;
+    display: inline-block; 
+    margin-top: 2rem;
+    
+}
+main img{
+    position: relative;
+    width: 5rem;
+    top: 2em;
+    left: -19em;
+    filter: invert(100%)
+    
+    
+    
+}
+footer{
+    white-space: nowrap;
+    margin-top: 5rem;
+    color: rgba(255, 255, 255, 40% );
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    
+}
+footer a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 40% );
+    font-size: 2rem;
+    font-weight: bold;
+     
+}
+
+footer img{
+    width: 5rem;
+    max-width: 50px;
+    position: relative; 
+    filter: invert(100%)
+    
+}
+.footerlogo, .footerlogo1, .footerlogo2 {
+    display: inline-block;
+    padding: 0 8rem;
+    margin-bottom: 5rem;
+}
+.footerlogo img{
+    margin: 0 4rem;
+    display: inline-block;
+    top: 1rem;
+    left: 3rem;
+}
+
+
+.footerlogo1 img{
+   
+    display: inline-block;
+    top: 1rem;
+    left: -1rem;
+}
+
+
+
+.footerlogo2 img{
+   
+    display: inline-block;
+    top: 1rem;
+    left: -1rem;
+}

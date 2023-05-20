@@ -1,0 +1,131 @@
+html{
+    font-family: sans-serif;
+    font-size: 10px
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(26, 31, 49);
+    color: white;
+     margin: 6rem 2rem; 
+}
+header{
+    margin-top:4rem;
+    margin-left: 4rem;
+    bottom: 2rem;
+    width: 50%;
+    font-size: 2rem;
+    white-space: nowrap;
+}
+
+
+/* middelbotton */
+
+
+.signin{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    white-space: nowrap;
+    background-color: blue;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 2rem 3rem;
+}
+.signin a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* search part */
+
+.searchbox{
+    background-color: rgb(98, 98, 121);
+    border-radius: 10px;
+    margin: 2rem 4rem;
+    padding: 2rem 2rem;
+    /* overflow-x: auto; */
+}
+ svg{
+    width: 15px;
+}
+.searchbox1{
+    display: inline-block;
+    
+}
+.searchbox1 input{
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(77, 77, 92);
+    padding:0.5rem 0;
+    padding-left: 4rem;
+    color: rgba(255, 255, 255, 0.87);
+    display: inline-block;
+}
+.searchbox1svg{
+    position: relative;
+    left: 3rem;
+    top: 0.3rem;
+}
+.searchbox2{
+    display: inline-block;
+}
+.searchbox2 input{
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(77, 77, 92);
+    padding:0.5rem 0;
+    padding-left: 4rem;
+    color: rgba(255, 255, 255, 0.87);
+    
+}
+.searchbox2svg{
+    position: relative;
+    left: 3rem;
+    top: 0.3rem;
+}
+
+.searchbox3{
+    display: inline-block;
+    margin-left: 1rem;
+}
+.searchbox3 select{
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(77, 77, 92);
+    padding:0.5rem 0;
+    padding-left: 4rem;
+    color: rgba(255, 255, 255, 0.87);  
+}
+option{
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.searchbox4{
+    display: inline-block;
+    margin-left: 1rem;
+}
+.searchbox4 button{
+    border: none;
+    border-radius: 2px;
+    background-color:blue;
+    padding:0.7rem 0;
+    padding-left: 4rem ;
+    padding-right: 2rem ;
+
+    color: rgba(255, 255, 255, 0.87);  
+}
+
+.searchbox4svg{
+    position: relative;
+    left: 3rem;
+    top: 0.3rem;}
+
+
+
+

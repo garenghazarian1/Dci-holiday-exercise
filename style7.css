@@ -1,0 +1,60 @@
+html{
+    font-family: sans-serif;
+    font-size: 10px
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img7/homepage_cleaned.jpg);
+    background-size: cover;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.blue{
+    position: absolute;
+    top: 25rem;
+    left: 50rem;
+}
+.red{
+    position: absolute;
+    top: 15rem;
+    left: 40rem;
+}
+
+.broun{
+    position: absolute;
+    top: 18rem;
+    left: 62rem;
+}
+.orange{
+    position: absolute;
+    top: 25rem;
+    left: 30rem;
+}
+.green{
+    position: absolute;
+    top: 22rem;
+    left: 80rem;
+}
+.grey{
+    position: absolute;
+    top: 35rem;
+    left: 80rem;
+}
+.text{
+    position: absolute;
+    top: 29rem;
+    left: 55rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    
+}

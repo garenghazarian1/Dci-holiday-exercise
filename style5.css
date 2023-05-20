@@ -1,0 +1,80 @@
+html{
+    font-family: sans-serif;
+    font-size: 10px
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(26, 31, 49);
+    color: white;
+     margin: 6rem 20rem; 
+}
+
+.logo{
+    max-width: 50%;
+}
+
+.img{
+    width: 50px;
+    position: relative;
+    top: 1.5rem;
+    
+}
+.flowbite{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 99%);
+    font-size: 3rem;
+   
+}
+.list{
+   margin-left: 60%; 
+   white-space: nowrap;
+}
+
+.footerp{
+    display: inline-block;
+   
+   top: -1rem;
+    font-size: 2rem;
+    white-space: nowrap;
+}
+
+.resource{
+    
+    color: rgba(255, 255, 255, 99%);
+    font-size: 2rem;
+    display: inline-block;
+    margin: 0;
+}
+.resource h3{
+    padding-right: 4rem;
+}
+.resource li{
+    padding: 2rem 0;
+    list-style: none;
+    
+}
+.resource li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 60%);
+    
+}
+
+.icondiv{
+    display: inline-block;
+    padding-top: 2rem; 
+    margin-left: 600px;
+    white-space: nowrap;
+    
+}
+.icon{
+    height: 40px;
+}
+.spaceicon{
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+}
